@@ -1,3 +1,4 @@
+```plantuml
 @startuml
 left to right direction
 actor "Daily-Rate Payer" as dr
@@ -48,3 +49,4 @@ rectangle Sites {
 }
 
 @enduml
+```
