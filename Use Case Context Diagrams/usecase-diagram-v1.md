@@ -1,3 +1,4 @@
+```plantuml
 @startuml
 left to right direction
 actor "Daily-Rate Payer" as dr
@@ -25,3 +26,4 @@ dr --> manageBookings
 ft --> manageCoffeeSubscription
 
 @enduml
+```
