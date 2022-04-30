@@ -41,10 +41,8 @@ actor "Site manager" as siteManager
 
 rectangle Sites {
   usecase "Manage desks" as manageDesks
-  usecase "Manage seats" as manageSeats
   usecase "Manage private meeting rooms" as manageRooms
   manageDesks <-- siteManager
-  manageSeats <-- siteManager
   manageRooms <-- siteManager
 }
 
