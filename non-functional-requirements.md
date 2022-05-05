@@ -69,3 +69,5 @@ The database application could benefit from the ability to revert any changes ma
 
 ## Acceptance Crtieria
 - [ ] Ability to make backups of the database so that it can be reverted to if needed, should be achievable via a tool like mysql workbench, phpmyadmin etc.
+- [ ] Ability to have code-base on a version control system like Git, Gitlab etc.
+- [ ] Ability to implement a active back-up system, database replication.
